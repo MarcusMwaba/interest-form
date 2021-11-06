@@ -1,0 +1,56 @@
+                                /*body styling*/
+body{
+    background-color: rgb(135, 156, 173);
+}
+                                 /* end of body styling*/
+                                   /*title styling*/
+.title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: xx-large;
+    color: blue;
+}
+                                    /* end of title styling*/
+                                     /*p tag styling*/
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: blue;
+   
+ 
+}
+                                         /*form-group styling*/
+input{
+   border: none;
+   height: 22px;
+   border-radius: 4px;
+}
+                                           /*fporm-group styling*/
+                                           /*textarea styling*/
+textarea{
+    border: none;
+    border-radius: 4px;
+    box-shadow: 4 8 8 4  blue;
+    
+}
+                                          /*end of textarea styling*/
+
+                                           /*button styling*/
+button{
+    border: none;
+    border-radius:4px ;
+    height: 30px;
+    width: 130px;
+    color: white;
+    background-color: rgb(63, 61, 235);
+}
+button:hover{
+    background-color: rgba(90, 188, 233,0.5);
+    }
+                                           /*end of buttonstyling*/
+         footer{
+             border-style: solid black;
+             height: 6px;
+             color: rgb(19, 18, 18);
+            padding: 30px;
+                
+                }

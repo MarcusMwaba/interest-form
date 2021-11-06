@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>interest form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+        <header class="title">
+            <h1  class="title">Employee interest Survey Form</h1>
+           
+        </header>
+        <p class="description">Thank you for taking your time</p>
+                         <!--input for first & last  name-->
+        <div class="form-group">
+        <form action="#" method="post">
+            <label for="Name">First Name </label>
+                <input type="First Name" placeholder="Dismus" class="fname" required><br><br>
+                <label for="Name">Last Name </label>
+                <input type="First Name" placeholder="Chaile" class="lname" required>
+          </div>
+                          <!--End of input for first & last  name-->
+                          <!--input email address-->
+        <div class="form-group"><br>
+            <label for="Email">Email</label>
+            <input type="Email" placeholder="type here your email address" required class>
+
+        </div>
+                               <!--End of input email address-->
+                               <!--textarea section-->
+                               <div>
+                                   <p id="quest">Tell us About yourself</p>
+                                   <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="type here your feedback"   required></textarea>
+                               </div>
+                                <!--End of textarea section-->
+                                <!--radio input()-->
+                                <div>
+                                <p id="quest">Do you exercise at home?</p>
+                                <label for="">
+                                <input type="radio" name="soruce" value="yes" required> Yes
+                            </label>
+                           
+                                <label for="">
+                                <input type="radio" name="soruce" value="yes" required> No
+                            </label>
+                                </div>   
+                                <!--checkbox sections-->
+                                <div >
+                                     <!--checkbox for books-->
+                                    <p id="quest">How do you like to read about your favourite topics ?</p >
+                                    <input type="checkbox" name="prefer"  class="checkbox" value="books" id="">
+                                    <label for="" name="source" value="books" >Books</label>
+                                    <!--checkbox for Phone apps-->
+                                    <input type="checkbox" name="prefer"  class="checkbox" value="phone app" >
+                                    <label for="">Phone apps</label>
+                                    <!--checkbox for online sources-->
+                                    <input type="checkbox" name="prefer"  class="checkbox" value="online resources">
+                                    <label for="">Online resources</label>
+                                    <!--checkbox for magazine-->
+                                    <input type="checkbox" name="prefer"  class="checkbox" value="magazine" id="">
+                                    <label for="">Magazine</label>
+                                  </div>
+                                 <!--END OF  checkbox sections-->
+                                 <!--dropdown-->
+                                 <div>
+                                    <p id="quest">What genre of movies do you like?</p>
+                                    <select name="role" id="dropdown">
+                                        <option value="" disabled selected>select genre</option>
+                                        <option value="comedy"> Comedy</option>
+                                        <option value="Horror">Horror</option>
+                                        <option value="action">Actions</option>
+                                   </select>
+                                   <!--space between the dropdown and the button-->
+                                    <div>
+                                        &MediumSpace;&MediumSpace;&MediumSpace;&MediumSpace;&MediumSpace;&MediumSpace;&MediumSpace;<br><br>
+                                    </div>
+                                    <div>
+                                        <button type="submit">Submit form</button>
+                                    </div>
+                         </div><br><br>
+                           <footer>
+                              
+                                   &copy;copyright Marcus Mwaba
+                             
+                           </footer>
+
+ </form>
+    </div>
+    </body>
+</html>
